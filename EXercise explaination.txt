@@ -1,0 +1,19 @@
+Explanation of the Code
+Initialization:
+
+The array arr is initialized with the values [5, 3, 2, 1].
+Outer Loop:
+
+The outer loop runs from i = 0 to n - 1, where n is the length of the array. This loop represents the passes through the array.
+Inner Loop:
+
+The inner loop runs from j = 0 to n - 1 - i. In each pass, it compares adjacent elements and swaps them if they are in the wrong order.
+Swapping:
+
+If arr[j] is greater than arr[j + 1], the elements are swapped.
+Optimization:
+
+A boolean flag swapped is used to check if any elements were swapped during the inner loop. If no elements were swapped, the array is already sorted, and the loop can be terminated early.
+Print Statements:
+
+After each outer loop iteration, the current state of the array is printed.
